@@ -62,7 +62,7 @@ function renderCard(product) {
 
     let card_design = `
     <div class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-evenly " id="product-${product.id}">
-        <img src="assets/images/${product.img_src}" class="card-img-top w-100" alt="...">
+        <img src="assets/images/${product.image}" class="card-img-top w-100" alt="...">
             <div class="card-body ">
                 <h5 class="card-title">${product.title}</h5>
                 <p class="card-text">Rs.${product.price}</p>
