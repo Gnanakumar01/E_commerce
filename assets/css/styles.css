@@ -6,7 +6,7 @@
 
 header {
     .navbar {
-        background-color: rgb(98, 100, 100);
+        background-color: rgb(11, 171, 225);
     }
     #serch{
         border: none;
@@ -20,29 +20,17 @@ header {
 
 main {
     .d-block {
-        aspect-ratio: 15/4;
+        aspect-ratio: 16/4;
     }
     .card:hover {
        box-shadow: 2px 2px 5px rgb(94, 93, 93);
     }
-    .grid {
-        display: grid;
-        /* grid-template-columns: auto auto; */
-    }
-    .btn {
+    .btn:hover {
         background: none;
         color: black;
         border-color: black;
-    }
-    .card{
-     
     }
     .card:hover{
         transform: scale(1.05);
     }
 }
-.products{
-    object-fit: cover;
-    overflow: hidden;
-}
-/* main end */
