@@ -64,7 +64,7 @@ function renderProducts() {
   products.forEach((item) => {
     const card = `
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-        <div class="card shadow-sm">
+        <div class="card">
           <img src="assets/images/${item.image}" class="card-img-top" alt="${item.title}">
           <div class="card-body">
             <h5 class="card-title">${item.title}</h5>

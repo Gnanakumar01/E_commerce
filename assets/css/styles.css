@@ -3,34 +3,27 @@
     padding:0;
     box-sizing: border-box;
 }
-
-header {
-    .navbar {
-        background-color: rgb(11, 171, 225);
-    }
-    #serch{
-        border: none;
-    }
-    #cart:hover{
-        color: white;
+.btn-outline-primary{
+    transition-duration: 1s;
+    &:hover{
+        background-color: #0d6efd;
+        transition-duration: 700ms;
     }
 }
-
-/* main start */
-
-main {
-    .d-block {
-        aspect-ratio: 16/4;
-    }
-    .card:hover {
-       box-shadow: 2px 2px 5px rgb(94, 93, 93);
-    }
-    .btn:hover {
-        background: none;
-        color: black;
-        border-color: black;
-    }
-    .card:hover{
-        transform: scale(1.05);
-    }
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-item img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/4;
+}
+.card{
+    transition-duration: 1s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition-duration: 700ms;
+    box-shadow: 4px 2px 5px 2px black;
 }
