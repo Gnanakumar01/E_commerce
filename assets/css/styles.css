@@ -25,5 +25,5 @@
 .card:hover{
     transform: translateY(-10px);
     transition-duration: 700ms;
-    box-shadow: 4px 2px 5px 2px black;
+    box-shadow: 4px 2px 5px 2px gray;
 }
