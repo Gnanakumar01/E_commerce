@@ -25,5 +25,35 @@
 .card:hover{
     transform: translateY(-10px);
     transition-duration: 700ms;
-    box-shadow: 4px 2px 5px 2px gray;
+    box-shadow: 4px 2px 5px 2px rgb(193, 190, 190);
+}
+.mt-3{
+   .bi-facebook{
+    transition-duration: 1s;
+    &:hover{
+        color: #0d6efd;
+        transition-duration: 700ms;
+        /* text-shadow: 1px 1px 0px  #0d6efd; */
+    }
+   }
+   .bi-instagram{
+    transition-duration: 1s;
+    &:hover{
+        color: rgb(249, 58, 198);
+        transition-duration: 700ms;
+    }
+   }
+   .bi-youtube{
+    transition-duration: 1s;
+    &:hover{
+        color: red;
+        transition-duration: 700ms;
+    }
+   }
+}
+@media (max-width:400px){
+    .card{
+        display: grid;
+        /* grid-template-columns: repeat(2,1fr); */
+    }
 }
